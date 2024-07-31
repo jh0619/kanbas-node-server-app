@@ -1,7 +1,5 @@
 import * as dao from "./dao.js";
 
-import * as dao from "./dao.js";
-
 export default function CourseRoutes(app) {
   const createCourse = async (req, res) => {
     const course = await dao.createCourse(req.body);
