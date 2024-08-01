@@ -1,38 +1,101 @@
 [
   {
     "title": "Propulsion Assignment",
-    "course": "RS101"
+    "course": "RS101",
+    "availability-dt": "2024-05-06T00:00:00",
+    "availability-until": "2024-05-20T00:00:00",
+    "due-dt": "2024-05-13T23:59:00",
+    "availability": "May 6 2024, 12:00AM",
+    "due": "May 13 2024, 11:59PM",
+    "points": "100",
+    "description": "Explore the fundamentals of propulsion systems and analyze their applications in modern aerospace technology"
   },
   {
     "title": "Combustion Analysis",
-    "course": "RS101"
+    "course": "RS101",
+    "availability-dt": "2024-05-13T00:00:00",
+    "availability-until": "2024-05-27T00:00:00",
+    "due-dt": "2024-05-20T23:59:00",
+    "availability": "May 13 2024, 12:00AM",
+    "due": "May 20 2024, 11:59PM",
+    "points": "100",
+    "description": "Dive into the principles of combustion and investigate various methods to optimize fuel efficiency and performance"
   },
   {
     "title": "Nozzle Design Project",
-    "course": "RS101"
+    "course": "RS101",
+    "availability-dt": "2024-05-20T00:00:00",
+    "availability-until": "2024-05-27T00:00:00",
+    "due-dt": "2024-05-27T23:59:00",
+    "availability": "May 20 2024, 12:00AM",
+    "due": "May 27 2024, 11:59PM",
+    "points": "100",
+    "description": "Design and evaluate nozzle configurations to enhance thrust and efficiency in propulsion systems"
   },
   {
     "title": "Aerodynamics Quiz",
-    "course": "RS102"
+    "course": "RS102",
+    "availability-dt": "2024-05-06T00:00:00",
+    "availability-until": "2024-05-20T00:00:00",
+    "due-dt": "2024-05-13T23:59:00",
+    "availability": "May 6 2024, 12:00AM",
+    "due": "May 13 2024, 11:59PM",
+    "points": "100",
+    "description": "Test your knowledge on the principles of aerodynamics and their impact on aircraft performance"
   },
   {
     "title": "Flow Analysis",
-    "course": "RS102"
+    "course": "RS102",
+    "availability-dt": "2024-05-13T00:00:00",
+    "availability-until": "2024-05-27T00:00:00",
+    "due-dt": "2024-05-20T23:59:00",
+    "availability": "May 13 2024, 12:00AM",
+    "due": "May 20 2024, 11:59PM",
+    "points": "100",
+    "description": "Conduct a detailed study on fluid dynamics and its applications in aerodynamics to improve aircraft design."
   },
   {
     "title": "Heating Analysis",
-    "course": "RS102"
+    "course": "RS102",
+    "availability-dt": "2024-05-20T00:00:00",
+    "availability-until": "2024-05-27T00:00:00",
+    "due-dt": "2024-05-27T23:59:00",
+    "availability": "May 20 2024, 12:00AM",
+    "due": "May 27 2024, 11:59PM",
+    "points": "100",
+    "description": "Examine thermal dynamics and assess heating effects on aerospace materials and structures."
   },
   {
     "title": "Structural Design Task",
-    "course": "RS103"
+    "course": "RS103",
+    "availability-dt": "2024-05-06T00:00:00",
+    "availability-until": "2024-05-20T00:00:00",
+    "due-dt": "2024-05-13T23:59:00",
+    "availability": "May 6 2024, 12:00AM",
+    "due": "May 13 2024, 11:59PM",
+    "points": "100",
+    "description": "Develop and analyze structural components to ensure the integrity and safety of aerospace vehicles"
   },
   {
     "title": "Orbital Calculations",
-    "course": "RS103"
+    "course": "RS103",
+    "availability-dt": "2024-05-13T00:00:00",
+    "availability-until": "2024-05-27T00:00:00",
+    "due-dt": "2024-05-20T23:59:00",
+    "availability": "May 13 2024, 12:00AM",
+    "due": "May 20 2024, 11:59PM",
+    "points": "100",
+    "description": "Perform calculations to determine orbital mechanics and predict satellite trajectories with precision"
   },
   {
     "title": "Systems Engineering Exam",
-    "course": "RS103"
+    "course": "RS103",
+    "availability-dt": "2024-05-20T00:00:00",
+    "availability-until": "2024-05-27T00:00:00",
+    "due-dt": "2024-05-27T23:59:00",
+    "availability": "May 20 2024, 12:00AM",
+    "due": "May 27 2024, 11:59PM",
+    "points": "100",
+    "description": "Demonstrate your understanding of systems engineering principles and their application in complex aerospace projects"
   }
 ]
