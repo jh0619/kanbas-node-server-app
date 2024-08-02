@@ -4,9 +4,9 @@ const assignmentSchema = new mongoose.Schema(
   {
     title: { type: String },
     course: { type: String },
-    availabilityDt: { type: Date },
-    availabilityUntil: { type: Date },
-    dueDt: { type: Date },
+    availabilityDt: { type: String },
+    availabilityUntil: { type: String },
+    dueDt: { type: String },
     availability: { type: String },
     due: { type: String },
     points: { type: Number },
