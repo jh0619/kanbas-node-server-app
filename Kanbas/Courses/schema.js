@@ -9,6 +9,11 @@ const courseSchema = new mongoose.Schema(
     department: { type: String },
     credits: { type: Number },
     description: { type: String },
+    facultyId: {
+      type: String,
+      ref: "users",
+      required: true,
+    },
   },
   { collection: "courses" }
 );
