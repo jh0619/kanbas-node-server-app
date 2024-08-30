@@ -15,6 +15,24 @@ export default function EnrollmentRoutes(app) {
     }
   });
 
+  app.get("/api/enrollments/course/:courseId", async (req, res) => {
+    try {
+      const courseId = req.params.courseId;
+      const enrollments = await dao.findEnrollmentsForCourse(courseId);
+      if (!enrollments) {
+        return res.json([]);
+      }
+      const studentIds = enrollments.map((enrollment) => enrollment.student);
+      const faculty = await dao.findFacultyForCourse(courseId);
+      const userIds = [...studentIds, faculty.facultyId];
+      const users = await dao.findUsersByIds(userIds);
+      res.json(users);
+    } catch (error) {
+      console.error("Error fetching users for the course:", error);
+      res.status(500).json({ message: "Internal server error" });
+    }
+  });
+
   app.post("/api/enrollments", async (req, res) => {
     const { student, course } = req.body;
     const existingEnrollment = await dao.findEnrollment(student, course);
